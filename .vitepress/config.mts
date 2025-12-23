@@ -1,6 +1,4 @@
 import {defineConfig, loadEnv} from 'vitepress'
-import {items as HTMLSidebarItems} from "./sidebars/html";
-import {items as CSSSidebarItems} from "./sidebars/css";
 
 // https://vitepress.dev/reference/site-config
 export default ({mode}) => {
@@ -55,19 +53,6 @@ export default ({mode}) => {
           ]
         },
       ],
-
-      sidebar: {
-        '/css/': CSSSidebarItems,
-        '/html/': HTMLSidebarItems,
-        '/php/': [{
-          text: 'PHP',
-          items: [
-            {text: 'Welcome to PHP', link: '/php/introduction'},
-            {text: 'Installation', link: '/php/installation'},
-            {text: 'Basic Syntax', link: '/php/basic-syntax'}
-          ]
-        }]
-      },
       socialLinks: [
         { icon: 'github', link: 'https://github.com/any-docs/anydocs' }
       ],
