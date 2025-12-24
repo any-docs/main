@@ -57,7 +57,7 @@ export default ({mode}) => {
         { icon: 'github', link: 'https://github.com/any-docs/anydocs' }
       ],
       footer: {
-        copyright: 'Copyright © 2025'
+        copyright: 'Copyright © 2025-present <a href="https://github.com/dluague" target="_blank">Darwin Luague</a>'
       },
     },
     ignoreDeadLinks: true,
